@@ -8,10 +8,9 @@ const App = () => {
   return (
     <div className='wrapper'>
       <div className='card-frame'>
-        <Header />
-        <Form />
-        <Todo />
+        <Header cant='8'/>
         <TodoList />
+        <Form />
       </div>
     </div>
   )

@@ -1,7 +1,15 @@
+import Todo from './Todo'
+
 const TodoList = () => {
     return (
-        <div>
-            <h1>Todo List</h1>
+        <div style={{pading: '5 px 0'}}>
+            <p>Todo List</p>
+            <Todo />
+            <Todo done />
+            <Todo />
+            <Todo done />
+            <Todo />
+            <Todo done />
         </div>
     )
 };

@@ -1,10 +1,10 @@
 import '../styles/header.css'
 
-const Header = () => {
+const Header = ({ cant }) => {
     return (
         <div>
             <h1 className="card-header-title header">
-                Hay 0 tareas
+                {'Hay ${cant} tareas'}
             </h1>
         </div>
     )
